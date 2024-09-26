@@ -26,19 +26,22 @@
         </p>
       </header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            id="user-input"
-            placeholder="Enter your favourite poet's name"
-            autofocus
-            required
-            autocomplete="off"
-            class="search-box"
-          />
-          <input type="submit" class="search-button" value="Write" />
-        </form>
-        <div id="poem" class="poem-content"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              id="user-input"
+              placeholder="Enter your favourite poet's name"
+              autofocus
+              required
+              autocomplete="off"
+              class="search-box"
+            />
+            <input type="submit" class="search-button" value="Write" />
+          </form>
+          <small>i.e. Leonard Cohen, Sylvia Plath, or Bob Dylan</small>
+        </div>
+        <div id="poem" class="poem-content hidden"></div>
       </main>
     </div>
     <footer>
