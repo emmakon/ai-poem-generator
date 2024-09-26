@@ -3,31 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <script src="javascript/index.js"></script>
+    <link rel="stylesheet" href="style/style.css" />
     <title>Poem Generator</title>
   </head>
   <body>
+    <div class="container"></div>
     <header>
       <h1>Poem Generator</h1>
     </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a poet's name"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="poem">
-        The poem will go here
-        <br />
-        The next line of the poem will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a poet's name"
+            autofocus
+            required
+            autocomplete="off"
+            class="search-box"
+          />
+          <input type="submit" class="search-button" value="Write" />
+        </form>
+        <div id="poem" class="poem-content">
+          The poem will go here
+          <br />
+          The next line of the poem will go here
+        </div>
+      </main>
+    </div>
     <footer>
       This AI project was coded by
       <a href="https://github.com/emmakon" target="_blank">Emma Konrad</a>, is

@@ -1,0 +1,73 @@
+body {
+  background: rgba(166, 177, 225, 0.5);
+  opacity: 0.7;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: #282c47;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  background: #f4eeff;
+  max-width: 600px;
+  margin: 10px auto 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+
+.poem-content {
+  padding: 30px;
+  margin: 0 auto 30px auto;
+  background: #f4eeff;
+  max-width: 600px;
+  border-radius: 4px;
+  border-left: 5px solid #282c47;
+  font-size: 15px;
+  line-height: 30px;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.search-box {
+  width: 70%;
+  border: 1px solid #282c47;
+}
+
+.search-button {
+  width: 20%;
+  background: #282c47;
+  color: white;
+  transition: all 150ms ease-in-out;
+  padding: 5px 10px;
+}
+
+.search-button:hover {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #282c47;
+  color: #424874;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+}
