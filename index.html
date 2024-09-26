@@ -10,19 +10,27 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style/style.css" />
-    <title>Poem Generator</title>
+    <title>AI Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Poem Generator</h1>
+        <h1>What if ___________ wrote it?</h1>
+        <h3>AI Dog Poems Written in the Style of Great Poets</h3>
+        <p>
+          The world could always use more poems about dogs! 🐶<br />
+          Generate a poem about man's best friend inspired by your favourite
+          poet!
+        </p>
       </header>
       <main>
         <form id="poem-form">
           <input
             type="text"
-            placeholder="Enter a poet's name"
+            id="user-input"
+            placeholder="Enter your favourite poet's name"
             autofocus
             required
             autocomplete="off"
